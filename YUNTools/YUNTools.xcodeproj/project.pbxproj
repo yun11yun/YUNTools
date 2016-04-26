@@ -24,6 +24,7 @@
 		C2437EC41CC9DCD4002E09E3 /* YUNLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C2437EC31CC9DCD4002E09E3 /* YUNLogger.m */; };
 		C2437F081CCA0843002E09E3 /* UIScrollView+YUNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C2437F051CCA0843002E09E3 /* UIScrollView+YUNExtension.m */; };
 		C2437F091CCA0843002E09E3 /* UIView+YUNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C2437F071CCA0843002E09E3 /* UIView+YUNExtension.m */; };
+		C2743B9C1CCEFCEE009955B8 /* NSTimer+YUNControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C2743B9B1CCEFCEE009955B8 /* NSTimer+YUNControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		C2437F061CCA0843002E09E3 /* UIView+YUNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YUNExtension.h"; sourceTree = "<group>"; };
 		C2437F071CCA0843002E09E3 /* UIView+YUNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YUNExtension.m"; sourceTree = "<group>"; };
 		C2437F141CCA08F3002E09E3 /* UIKit+YUNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+YUNExtension.h"; sourceTree = "<group>"; };
+		C2743B9A1CCEFCEE009955B8 /* NSTimer+YUNControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+YUNControl.h"; sourceTree = "<group>"; };
+		C2743B9B1CCEFCEE009955B8 /* NSTimer+YUNControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+YUNControl.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,7 @@
 				C2437E701CC9C0E2002E09E3 /* AppDelegate.m */,
 				C2437E721CC9C0E2002E09E3 /* ViewController.h */,
 				C2437E731CC9C0E2002E09E3 /* ViewController.m */,
+				C2743B991CCEFCD5009955B8 /* Extensions */,
 				C2437F031CCA0843002E09E3 /* UIKitExtension */,
 				C2437EA71CC9CFC4002E09E3 /* YUNTools */,
 				C2437E751CC9C0E2002E09E3 /* Main.storyboard */,
@@ -181,6 +185,15 @@
 				C2437F071CCA0843002E09E3 /* UIView+YUNExtension.m */,
 			);
 			path = UIKitExtension;
+			sourceTree = "<group>";
+		};
+		C2743B991CCEFCD5009955B8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C2743B9A1CCEFCEE009955B8 /* NSTimer+YUNControl.h */,
+				C2743B9B1CCEFCEE009955B8 /* NSTimer+YUNControl.m */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +306,7 @@
 				C2437EBE1CC9D717002E09E3 /* YUNMath.m in Sources */,
 				C2437EB41CC9CFC4002E09E3 /* YUNBase64.m in Sources */,
 				C2437E6E1CC9C0E2002E09E3 /* main.m in Sources */,
+				C2743B9C1CCEFCEE009955B8 /* NSTimer+YUNControl.m in Sources */,
 				C2437EB61CC9CFC4002E09E3 /* YUNFont.m in Sources */,
 				C2437F081CCA0843002E09E3 /* UIScrollView+YUNExtension.m in Sources */,
 			);
